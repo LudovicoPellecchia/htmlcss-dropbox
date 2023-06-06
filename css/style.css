@@ -94,7 +94,7 @@ nav ul li a{
 
 .hero-img img{
     display: inline-block;
-    height: 400px;
+    height: 450px;
 }
 
 
@@ -138,19 +138,21 @@ main{
 }
 
 .sub-plans{
+    justify-content: space-between;
+    flex-wrap: wrap;
     display: flex;
     gap: 50px;
 }
 
 .card{
-width: 33%;
+width: calc(33.3% - 50px);
 border: 1px solid rgb(207, 207, 207);
 
 }
 
 .card-content{
     font-size: 0.8rem;
-    padding: 30px 15px ;
+    padding: 30px 25px;
 }
 
 .card-user{
@@ -210,10 +212,24 @@ border: 1px solid rgb(207, 207, 207);
 }
 
 
-/* .card-bottom-info{
-    padding-bottom: 100px;
-} */
 .card-bottom-info i{
     font-weight: 800;
     color: #0061FF;
+}
+
+.card.contact{
+    width: 100%;
+}
+
+.bottom-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-bottom-card{
+    width: 65%;
+}
+.right-bottom-card{
+    height: 100%;
+    width: 25%;
 }
