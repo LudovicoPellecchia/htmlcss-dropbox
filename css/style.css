@@ -10,12 +10,15 @@ body{
 
 :root{
     --main-color:#B4D0E7;
-    --button-color:#0061FF;
+    --btn-bg:#0061FF;
+    --btn-color:white;
+    --btn-padding:10px 15px;
     --section-top-spacing:3rem;
     --titles-spacing:2.5rem;
     --paragraph-spacing: 1.5rem;
     --section-font-title: 2rem;
-    --card-content-spacing: 20px
+    --card-content-spacing: 1rem;
+    --icon-spacing: 5px;
 }
 
 .container{
@@ -63,9 +66,9 @@ nav ul li a{
 }
 
 #start-btn{
-    color: white;
+    color: var(--btn-color);
     padding: 6px 12px;
-    background-color: var(--button-color);
+    background-color: var(--btn-bg);
 }
 
 .hero-section{
@@ -102,9 +105,9 @@ nav ul li a{
 
 .hero-text p button{
     border: none;
-    color: white;
-    background-color: var(--button-color);
-    padding: 10px 15px;
+    color: var(--btn-color);
+    background-color: var(--btn-bg);
+    padding: var(--btn-padding);
     margin: var(--paragraph-spacing) 0;
 }
 
@@ -136,13 +139,17 @@ main{
 
 .sub-plans{
     display: flex;
+    gap: 50px;
 }
 
 .card{
-    width: 33%;
+width: 33%;
+border: 1px solid rgb(207, 207, 207);
+
 }
 
 .card-content{
+    font-size: 0.8rem;
     padding: 30px 15px ;
 }
 
@@ -151,6 +158,62 @@ main{
     text-align: center;
     border: 1px solid rgb(207, 207, 207);
 }
-.card-name i{
-    padding-right: 5px;
+
+.card-user i{
+    padding-right: var(--icon-spacing);
+}
+
+.card-name{
+    font-size:1.1rem;
+}
+
+.card-name,.card-price,.card-price div,.card-row{
+    padding-top:var(--card-content-spacing);
+}
+
+.card-price{
+    padding-bottom: 20px;
+}
+.card-price div{
+    color: gray;
+}
+.card-info{
+    padding-bottom: var(--titles-spacing);
+}
+
+.card-row{
+    display: flex;
+}
+
+.card-row i{
+    padding-right: var(--icon-spacing);
+}
+
+.subscribe-trial{
+    text-align: center;
+    color: var(--btn-color);
+    background-color: var(--btn-bg);
+    padding: var(--btn-padding);
+}
+
+.subscribe-buy{
+    padding: var(--paragraph-spacing) 0px;
+}
+
+.subscribe-buy::after{
+    display: block;
+    content: "";
+    height: var(--paragraph-spacing);
+    width: 30px;
+    background-color: white;
+    border-bottom: 1px solid rgb(189, 188, 188);
+}
+
+
+/* .card-bottom-info{
+    padding-bottom: 100px;
+} */
+.card-bottom-info i{
+    font-weight: 800;
+    color: #0061FF;
 }
