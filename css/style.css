@@ -10,5 +10,147 @@ body{
 
 :root{
     --main-color:#B4D0E7;
-    --button-color:#0061FF
+    --button-color:#0061FF;
+    --section-top-spacing:3rem;
+    --titles-spacing:2.5rem;
+    --paragraph-spacing: 1.5rem;
+    --section-font-title: 2rem;
+    --card-content-spacing: 20px
+}
+
+.container{
+    width: 920px;
+    margin: auto;
+}
+
+.container-xl{
+    width: 1000px;
+}
+
+
+header nav{
+    padding: 1.5rem 0;
+    padding-left: 1rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding-right: 2rem;
+}
+
+
+.left-nav{
+    display: flex;
+    align-items: center;
+}
+.left-nav img{
+    padding-right: 2rem;
+}
+
+.right-nav{
+    padding-right:2rem ;
+}
+
+#start-btn{
+    color: white;
+    padding: 6px 12px;
+    background-color: var(--button-color);
+}
+
+.hero-section{
+    width: 100%;
+    padding-top: var(--section-top-spacing);
+    background-color: var(--main-color);
+}
+
+.hero-section h1{
+    line-height: 5rem;
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding-bottom: var(--titles-spacing);
+}
+
+.hero-description{
+    display: flex;
+}
+
+.hero-img{
+    width: 60%;
+}
+
+.hero-img img{
+    display: inline-block;
+    height: 400px;
+}
+
+
+.hero-text{
+    width: 40%;
+
+}
+
+.hero-text p button{
+    border: none;
+    color: white;
+    background-color: var(--button-color);
+    padding: 10px 15px;
+    margin: var(--paragraph-spacing) 0;
+}
+
+.hero-section::after{
+    display: block;
+    content: "";
+    width: 100vw;
+    height: 70px;
+    background-color: white;
+    margin-top: -70px;
+}
+
+main{
+    padding-top: var(--section-top-spacing);
+}
+
+.account-plans h2{
+    font-size: var(--section-font-title);
+    padding-bottom: var(--titles-spacing);
+}
+
+.plan-checkbox span{
+    padding-right:2rem;
+}
+
+.plan-checkbox{
+    padding-bottom: var(--titles-spacing);
+}
+
+.sub-plans{
+    display: flex;
+}
+
+.card{
+    width: 33%;
+}
+
+.card-content{
+    padding: 30px 15px ;
+}
+
+.card-user{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(207, 207, 207);
+}
+.card-name i{
+    padding-right: 5px;
 }
