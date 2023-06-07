@@ -335,7 +335,7 @@ width: 100%;
     background-size: contain; */
 }
 .banner img{
-    color: white;
+    filter: invert();
     width: 50%;
 }
 
