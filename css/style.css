@@ -13,7 +13,7 @@ body{
     --btn-bg:#0061FF;
     --btn-color:white;
     --btn-padding:10px 15px;
-    --section-top-spacing:3rem;
+    --section-top-spacing:6rem;
     --titles-spacing:2.5rem;
     --paragraph-spacing: 1.5rem;
     --section-font-title: 2rem;
@@ -22,12 +22,12 @@ body{
 }
 
 .container{
-    width: 920px;
+    max-width: 920px;
     margin: auto;
 }
 
 .container-xl{
-    width: 1000px;
+    max-width: 1100px;
 }
 
 
@@ -92,17 +92,20 @@ nav ul li a{
     width: 60%;
 }
 
-.hero-img img{
-    display: inline-block;
-    height: 450px;
-}
-
 
 .hero-text{
     width: 40%;
     position: relative;
-
 }
+
+.hero-img img{
+    display: inline-block;
+/*     height: 450px;
+ */
+    width: 100%;
+}
+
+
 
 .hero-text p button{
     border: none;
@@ -131,7 +134,7 @@ main{
     padding-top: var(--section-top-spacing);
 }
 
-.account-plans h2{
+/* .account-plans  */h2{
     font-size: var(--section-font-title);
     padding-bottom: var(--titles-spacing);
 }
@@ -239,4 +242,110 @@ border: 1px solid rgb(207, 207, 207);
 .right-bottom-card{
     height: 100%;
     width: 25%;
+}
+
+
+.find-partner{
+    padding-top: var(--section-top-spacing);
+    padding-bottom: var(--section-top-spacing);
+}
+
+.row{
+    display: flex;
+}
+
+.find-partner .col-img{
+    flex-basis: 60%;
+}
+.find-partner .col-text{
+    flex-basis: 40%;
+}
+
+.find-partner .col-img img{
+width: 100%;
+}
+
+.find-partner .col-text{
+    padding: 40px;
+}
+
+.spacing{
+    padding-bottom: var(--paragraph-spacing);
+}
+
+.find-partner .button{
+    display: inline-block;
+    padding: var(--btn-padding);
+    border: 1px solid black;
+}
+
+.dropbox-business .row{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dropbox-business .col{
+    display: flex;
+    flex-direction: column;
+    gap: var(--paragraph-spacing);
+    flex-basis: calc(33.3% - 30px);
+    padding-bottom: 20px;
+}
+
+.dropbox-business img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.dropbox-teams{
+    padding-top: var(--section-top-spacing);
+    padding-bottom: var(--section-top-spacing);
+}
+
+.dropbox-teams a{
+    color: #1F1FF0;
+}
+
+
+.banner-container{
+    padding-top: var(--section-top-spacing);
+    width: 100vw;
+    display: flex;
+}
+
+.square-container{
+    flex-basis: 33.3%;
+    display: flex;
+    flex-wrap: wrap;
+    aspect-ratio: 1/1;
+}
+
+.banner{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner.green{
+    background-color: #A2D39B ;
+/*     background-image: url(../img/designit.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+.banner.green img{
+    color: white;
+    width: 50%;
+}
+
+.banner.darkred{
+    background-color: #61082B;
+}
+
+.banner.lightblue{
+    background-color:#0093CE;
+}
+.banner.red{
+    background-color: #FF1C1C ;
 }
