@@ -30,7 +30,7 @@ body{
     max-width: 1100px;
 }
 
-
+/* HEADER  NAV*/
 header nav{
     z-index: 3;
     position: fixed;
@@ -64,16 +64,16 @@ nav ul li a{
     padding-right: 2rem;
 }
 
-/* .right-nav{
-    padding-right:2rem ;
-} */
 
 #start-btn{
     color: var(--btn-color);
     padding: 6px 12px;
     background-color: var(--btn-bg);
 }
+/* //HEADER  NAV*/
 
+
+/* HERO SECTION */
 .hero-section{
     width: 100%;
     padding-top:7rem;
@@ -135,18 +135,19 @@ nav ul li a{
     margin-top: -70px;
 }
 
+/* //HERO SECTION */
+
+
 main{
     padding-top: var(--section-top-spacing);
 }
 
-/* .account-plans  */h2{
+h2{
     font-size: var(--section-font-title);
     padding-bottom: var(--titles-spacing);
 }
 
-/* .plan-radio span{
-    padding-right:2rem;
-} */
+/* RADIO BUTTONS */
 
 .plan-radio{
     display: inline-block;
@@ -175,6 +176,10 @@ main{
     border-color: var(--btn-bg);
     border-width: 5px;
 }
+/* //RADIO BUTTONS */
+
+
+/* FIRST-SECTION CARDS */
 
 .sub-plans{
     flex-wrap: wrap;
@@ -271,8 +276,10 @@ main{
     height: 100%;
     width: 25%;
 }
+/* //FIRST-SECTION CARDS */
 
 
+/* SECOND SECTION: FIND A PARTNER */
 .find-partner{
     padding-top: var(--section-top-spacing);
     padding-bottom: var(--section-top-spacing);
@@ -308,6 +315,9 @@ display: block;
     border: 1px solid black;
 }
 
+/* //SECOND SECTION: FIND A PARTNER */
+
+/* THIRD SECTION: BANNER */
 .dropbox-business .row{
     flex-wrap: wrap;
     justify-content: space-between;
@@ -326,7 +336,6 @@ display: block;
     height: 100%;
 }
 
-
 .banner-section{
     padding-top: var(--section-top-spacing);
     padding-bottom: var(--section-top-spacing);
@@ -335,7 +344,6 @@ display: block;
 .banner-section a{
     color: #1F1FF0;
 }
-
 
 .banner-container{
     padding-top: var(--section-top-spacing);
@@ -417,8 +425,6 @@ display: block;
     padding-bottom: 30px;
 }
 
-
-
 .banner-bottom-section{
     background-color: var(--main-color);
     padding:var(--section-top-spacing) 0;
@@ -441,8 +447,10 @@ display: block;
     display: inline-block;
     padding: var(--btn-padding);
 }
+/* //THIRD SECTION: BANNER */
 
 
+/* FOURTH SECTION: FAQ */
 .dropbox-faq{
 padding-bottom: var(--section-top-spacing);
 }
@@ -457,7 +465,10 @@ padding-bottom: var(--section-top-spacing);
     margin-right: 40px;
 }
 
+/* //FOURTH SECTION: FAQ */
 
+
+/* FOOTER */
 footer{
     padding: 5rem 0;
     width: 100%;
@@ -509,3 +520,5 @@ footer{
 .select-lang > div{
     padding-right: 10px;
 }
+
+/* //FOOTER */
