@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 :root{
@@ -32,8 +32,7 @@ body{
 
 
 header nav{
-    padding: 1.5rem 0;
-    padding-left: 1rem;
+    padding: 1.5rem 1rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -61,9 +60,9 @@ nav ul li a{
     padding-right: 2rem;
 }
 
-.right-nav{
+/* .right-nav{
     padding-right:2rem ;
-}
+} */
 
 #start-btn{
     color: var(--btn-color);
@@ -79,7 +78,7 @@ nav ul li a{
 
 .hero-section h1{
     line-height: 5rem;
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: 700;
     padding-bottom: var(--titles-spacing);
 }
@@ -328,13 +327,6 @@ display: block;
     position: relative;
 }
 
-.banner.green{
-    background-color: #A2D39B ;
-/*     background-image: url(../img/designit.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain; */
-}
 .banner img{
     position: absolute;
     top: 50%;
@@ -342,6 +334,14 @@ display: block;
     transform: translate(-50%, -50%);
     filter: invert();
     width: 50%;
+}
+.banner.green{
+    border:1.5rem solid transparent  ;
+    background-color: #A2D39B ;
+}
+
+.banner.green:hover{
+    border: 1.5rem  solid #d1f2cd  ;
 }
 
 .banner.darkred{
@@ -439,7 +439,7 @@ footer{
 
 .footer-row{
     display: flex;
-    gap: 40px;
+    gap: 60px;
 }
 
 .footer-row .col{
@@ -465,13 +465,14 @@ footer{
 .footer-row .first::after{
     display: block;
     content: "";
-    height:calc(var(--titles-spacing) - var(--card-content-spacing)) ;
+    height:var(--titles-spacing);
     width: 100px;
     background-color: black;
     border-bottom: 1px solid grey;
 }
 
 .select-lang{
+    color: grey;
     display: flex;
     align-items: center;
     padding-top: var(--paragraph-spacing);
