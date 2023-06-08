@@ -73,7 +73,7 @@ nav ul li a{
 
 .hero-section{
     width: 100%;
-    padding-top: var(--section-top-spacing);
+    padding-top:3rem;
     background-color: var(--main-color);
 }
 
@@ -100,8 +100,6 @@ nav ul li a{
 
 .hero-img img{
     display: inline-block;
-/*     height: 450px;
- */
     width: 100%;
 }
 
@@ -263,6 +261,7 @@ border: 1px solid rgb(207, 207, 207);
 
 .find-partner .col-img img{
 width: 100%;
+display: block;
 }
 
 .find-partner .col-text{
@@ -298,12 +297,12 @@ width: 100%;
 }
 
 
-.dropbox-teams{
+.banner-section{
     padding-top: var(--section-top-spacing);
     padding-bottom: var(--section-top-spacing);
 }
 
-.dropbox-teams a{
+.banner-section a{
     color: #1F1FF0;
 }
 
@@ -384,4 +383,29 @@ width: 100%;
 
 .banner-center p{
     padding-bottom: 30px;
+}
+
+
+
+.banner-bottom-section{
+    background-color: var(--main-color);
+    padding:var(--section-top-spacing) 0;
+}
+
+.dropbox-business-free-trial{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropbox-business-free-trial h2{
+    color: #61082B;
+    flex-basis: 45%;
+    padding: 0;
+}
+
+.dropbox-business-free-trial .button{
+    background-color: white;
+    height: 100%;
+    display: inline-block;
+    padding: var(--btn-padding);
 }
