@@ -352,6 +352,8 @@ display: block;
 .banner{
     flex-basis: 50%;
     position: relative;
+    border:1.5rem solid transparent  ;
+
 }
 
 .banner img{
@@ -363,7 +365,6 @@ display: block;
     width: 50%;
 }
 .banner.green{
-    border:1.5rem solid transparent  ;
     background-color: #A2D39B ;
 }
 
