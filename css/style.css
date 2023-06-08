@@ -150,18 +150,20 @@ main{
 }
 
 .sub-plans{
-    justify-content: space-between;
     flex-wrap: wrap;
     display: flex;
     gap: 50px;
 }
 
 .card{
-width: calc(33.3% - 50px);
+    flex-grow: 1;
+    flex-basis: 0;
 border: 1px solid rgb(207, 207, 207);
-
 }
 
+.card.bottom{
+    flex-basis: 100%;
+}
 .card-content{
     font-size: 0.8rem;
     padding: 30px 25px;
@@ -229,9 +231,7 @@ border: 1px solid rgb(207, 207, 207);
     color: #0061FF;
 }
 
-.card.contact{
-    width: 100%;
-}
+
 
 .bottom-card{
     display: flex;
