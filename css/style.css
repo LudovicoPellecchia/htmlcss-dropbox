@@ -259,8 +259,7 @@ main{
 }
 
 
-
-.bottom-card{
+.card-content.bottom-card{
     display: flex;
     justify-content: space-between;
 }
