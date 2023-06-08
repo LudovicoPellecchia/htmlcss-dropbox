@@ -431,7 +431,7 @@ padding-bottom: var(--section-top-spacing);
 
 
 footer{
-    padding-top: var(--titles-spacing);
+    padding: 5rem 0;
     width: 100%;
     color: white;
     background-color: black;
@@ -474,7 +474,7 @@ footer{
 .select-lang{
     display: flex;
     align-items: center;
-    padding: var(--paragraph-spacing) 0;
+    padding-top: var(--paragraph-spacing);
 }
 
 .select-lang > div{
