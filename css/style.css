@@ -99,7 +99,7 @@ nav ul li a{
 }
 
 .hero-img img{
-    display: inline-block;
+    display:block;
     width: 100%;
 }
 
@@ -426,6 +426,53 @@ padding-bottom: var(--section-top-spacing);
 }
 
 
-.footer{
+footer{
+    padding-top: var(--titles-spacing);
+    width: 100%;
+    color: white;
     background-color: black;
+}
+
+.footer-row{
+    display: flex;
+    gap: 40px;
+}
+
+.footer-row .col{
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.footer-row h3{
+    padding-bottom: var(--paragraph-spacing);
+}
+
+.col ul li{
+    list-style: none;
+}
+
+.col ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-bottom: var(--card-content-spacing);
+}
+
+.footer-row .first::after{
+    display: block;
+    content: "";
+    height:calc(var(--titles-spacing) - var(--card-content-spacing)) ;
+    width: 100px;
+    background-color: black;
+    border-bottom: 1px solid grey;
+}
+
+.select-lang{
+    display: flex;
+    align-items: center;
+    padding-top: var(--paragraph-spacing);
+}
+
+.select-lang > div{
+    padding-right: 10px;
 }
