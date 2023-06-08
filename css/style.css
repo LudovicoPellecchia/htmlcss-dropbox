@@ -32,6 +32,10 @@ body{
 
 
 header nav{
+    z-index: 3;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
     padding: 1.5rem 1rem;
     width: 100%;
     display: flex;
@@ -72,7 +76,7 @@ nav ul li a{
 
 .hero-section{
     width: 100%;
-    padding-top:3rem;
+    padding-top:7rem;
     background-color: var(--main-color);
 }
 
