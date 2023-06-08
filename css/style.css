@@ -48,13 +48,11 @@ nav ul{
     display: flex;
 }
 
-
 nav ul li a{
     text-decoration: none;
     color: black;
     padding-right: 2rem;
 }
-
 
 .left-nav{
     display: flex;
@@ -95,7 +93,6 @@ nav ul li a{
     width: 70%;
 }
 
-
 .hero-text{
     width: 30%;
     position: relative;
@@ -109,8 +106,6 @@ nav ul li a{
     display:block;
     width: 100%;
 }
-
-
 
 .hero-text p button{
     border: none;
@@ -134,7 +129,6 @@ nav ul li a{
     background-color: white;
     margin-top: -70px;
 }
-
 /* //HERO SECTION */
 
 
@@ -147,8 +141,8 @@ h2{
     padding-bottom: var(--titles-spacing);
 }
 
-/* RADIO BUTTONS */
 
+/* RADIO BUTTONS */
 .plan-radio{
     display: inline-block;
 }
@@ -180,7 +174,6 @@ h2{
 
 
 /* FIRST-SECTION CARDS */
-
 .sub-plans{
     flex-wrap: wrap;
     display: flex;
@@ -257,12 +250,10 @@ h2{
     border-bottom: 1px solid rgb(189, 188, 188);
 }
 
-
 .card-bottom-info i{
     font-weight: 800;
     color: #0061FF;
 }
-
 
 .card-content.bottom-card{
     display: flex;
@@ -314,8 +305,8 @@ display: block;
     padding: var(--btn-padding);
     border: 1px solid black;
 }
-
 /* //SECOND SECTION: FIND A PARTNER */
+
 
 /* THIRD SECTION: BANNER */
 .dropbox-business .row{
@@ -360,8 +351,7 @@ display: block;
 .banner{
     flex-basis: 50%;
     position: relative;
-    border:1.5rem solid transparent  ;
-
+    border:1.5rem solid transparent;
 }
 
 .banner img{
@@ -372,6 +362,7 @@ display: block;
     filter: invert();
     width: 50%;
 }
+
 .banner.green{
     background-color: #A2D39B ;
 }
@@ -383,7 +374,6 @@ display: block;
 .banner.darkred{
     background-color: #61082B;
 }
-
 .banner.lightblue{
     background-color:#0093CE;
 }
@@ -407,10 +397,12 @@ display: block;
     overflow: scroll;
     padding: 60px;
 }
+
 .square-container.center img{
     width: 100%;
     padding-bottom: 30px;
 }
+
 .banner-center p::before{
     margin-bottom:30px ;
     display: block;
@@ -464,7 +456,6 @@ padding-bottom: var(--section-top-spacing);
 .faq-row i{
     margin-right: 40px;
 }
-
 /* //FOURTH SECTION: FAQ */
 
 
@@ -520,5 +511,4 @@ footer{
 .select-lang > div{
     padding-right: 10px;
 }
-
 /* //FOOTER */
