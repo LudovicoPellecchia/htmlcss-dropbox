@@ -13,7 +13,7 @@ body{
     --btn-bg:#0061FF;
     --btn-color:white;
     --btn-padding:10px 15px;
-    --section-top-spacing:6rem;
+    --section-top-spacing:120px;
     --titles-spacing:2.5rem;
     --paragraph-spacing: 2rem;
     --section-font-title: 2rem;
@@ -89,12 +89,12 @@ nav ul li a{
 }
 
 .hero-img{
-    width: 60%;
+    width: 70%;
 }
 
 
 .hero-text{
-    width: 40%;
+    width: 30%;
     position: relative;
 }
 
