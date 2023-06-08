@@ -15,7 +15,7 @@ body{
     --btn-padding:10px 15px;
     --section-top-spacing:6rem;
     --titles-spacing:2.5rem;
-    --paragraph-spacing: 1.5rem;
+    --paragraph-spacing: 2rem;
     --section-font-title: 2rem;
     --card-content-spacing: 1rem;
     --icon-spacing: 5px;
@@ -408,4 +408,24 @@ display: block;
     height: 100%;
     display: inline-block;
     padding: var(--btn-padding);
+}
+
+
+.dropbox-faq{
+padding-bottom: var(--section-top-spacing);
+}
+
+.faq-row{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--paragraph-spacing) 0;
+}
+
+.faq-row i{
+    margin-right: 40px;
+}
+
+
+.footer{
+    background-color: black;
 }
